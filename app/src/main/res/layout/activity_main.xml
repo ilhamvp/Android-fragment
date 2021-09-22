@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fragment_atas"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        tools:context=".BlankFragment"
+        android:background="#0114FF">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Fragment Atas"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fragment_bawah"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        tools:context=".BlankFragment"
+        android:background="#2AF719"
+        android:layout_alignParentBottom="true" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Fragment Bawah"
+            android:gravity="center"/>
+    </FrameLayout>
+
+</RelativeLayout>
